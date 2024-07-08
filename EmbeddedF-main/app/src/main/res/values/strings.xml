@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Embedded F</string>
+    <string name="menu_Open">Open</string>
+    <string name="close_menu">Close</string>
+    <string name="col1">Participant Name</string>
+    <string name="col2">Status</string>
+    <string name="row1Name">1. Dr. Sajeeb Saha</string>
+    <string name="row2Name">2. Dr. Md. Manowarul Islam</string>
+    <string name="row1Status">Active/InActive</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

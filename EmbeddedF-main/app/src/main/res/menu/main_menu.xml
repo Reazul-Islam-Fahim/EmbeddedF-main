@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_assignment_24"
+            android:title="Teacher's Information" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_AboutUs"
+                        android:icon="@drawable/ic_about_us"
+                        android:title="About Us" />
+                    <item
+                        android:id="@+id/nav_share"
+                        android:icon="@drawable/ic_baseline_share_24"
+                        android:title="Share" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Authenticate">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_logOut"
+                        android:icon="@drawable/ic_baseline_log_out_24"
+                        android:title="Log Out" />
+
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

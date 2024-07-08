@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="80dp"
+            android:layout_height="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:id="@+id/Tname"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_toRightOf="@+id/profile_pic"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Ttitle"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_toRightOf="@+id/profile_pic"
+                    android:layout_below="@+id/Tname"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/Tmsg"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_toRightOf="@+id/profile_pic"
+                    android:layout_below="@+id/Ttitle"
+                    android:layout_marginLeft="10dp"
+                    />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
